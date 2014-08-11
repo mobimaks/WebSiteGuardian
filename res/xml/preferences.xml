@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:id="@+id/psSiteUrlPref"
+        android:key="site"
+        android:defaultValue="@string/defaultSiteUrl"
+        android:summary="@string/psSiteUrlPrefSummary"
+        android:title="@string/prefSiteURl"/>
+    <EditTextPreference
+        android:id="@+id/psCheckInterval"
+        android:key="interval"
+        android:defaultValue="15"
+        android:inputType="numberDecimal"
+        android:summary="@string/enterCheckInterval"
+        android:title="@string/prefCheckInterval"/>
+</PreferenceScreen>

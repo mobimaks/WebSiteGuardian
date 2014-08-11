@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WebSit eGuardian</string>
+    <string name="tvLastResTitle">Status</string>
+    <string name="start">Start service</string>
+    <string name="stop">Stop service</string>
+    <string name="last_time_checked">Last time checked:</string>
+    <string name="settings">Settings</string>
+    <string name="prefSiteURl">Site URL</string>
+    <string name="defaultSiteUrl">https://www.google.com.ua/</string>
+    <string name="psSiteUrlPrefSummary">Please, enter site URL</string>
+    <string name="enterCheckInterval">Enter check interval</string>
+    <string name="prefCheckInterval">Check interval</string>
+    <string name="siteTitleError">Internal Server Error. Status %d</string>
+    <string name="siteError">Website %s not available</string>
+</resources>
