@@ -1,4 +1,4 @@
-package com.example.WebSit_eGuardian.net;
+package com.example.WebSiteGuardian.net;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;

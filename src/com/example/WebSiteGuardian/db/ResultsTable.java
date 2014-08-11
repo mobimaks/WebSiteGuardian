@@ -1,4 +1,4 @@
-package com.example.WebSit_eGuardian.db;
+package com.example.WebSiteGuardian.db;
 
 import android.database.sqlite.SQLiteDatabase;
 

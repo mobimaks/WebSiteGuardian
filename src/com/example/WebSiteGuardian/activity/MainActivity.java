@@ -1,4 +1,4 @@
-package com.example.WebSit_eGuardian.activity;
+package com.example.WebSiteGuardian.activity;
 
 import android.app.Activity;
 import android.app.LoaderManager.LoaderCallbacks;
@@ -14,11 +14,11 @@ import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.ListView;
 import android.widget.Switch;
-import com.example.WebSit_eGuardian.R;
-import com.example.WebSit_eGuardian.adapter.MyCursorAdapter;
-import com.example.WebSit_eGuardian.db.DBHelper;
-import com.example.WebSit_eGuardian.loader.MyCursorLoader;
-import com.example.WebSit_eGuardian.service.MyAlarm;
+import com.example.WebSiteGuardian.R;
+import com.example.WebSiteGuardian.adapter.MyCursorAdapter;
+import com.example.WebSiteGuardian.db.DBHelper;
+import com.example.WebSiteGuardian.loader.MyCursorLoader;
+import com.example.WebSiteGuardian.service.MyAlarm;
 
 public class MainActivity extends Activity implements OnCheckedChangeListener, LoaderCallbacks<Cursor>{
 
@@ -42,7 +42,6 @@ public class MainActivity extends Activity implements OnCheckedChangeListener, L
 
         listView = (ListView) findViewById(R.id.lvHistory);
         swServiceSwitch = (Switch) findViewById(R.id.swServiceSwitch);
-
 
         myAlarm = new MyAlarm(this);
         swServiceSwitch.setChecked(myAlarm.isActive());
@@ -105,7 +104,7 @@ public class MainActivity extends Activity implements OnCheckedChangeListener, L
         Log.d("mytime", "Is active[1]: ".concat("" + isAlarmActive));
         if (isChecked && !isAlarmActive){
             SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
-            String intervalStr = preferences.getString(SettingsActivity.CHECK_INTERVAL_KEY, "");
+            String intervalStr = preferences.getString(SettingsActivity.CHECK_INTERVAL_KEY, "15");
             long interval = (long) (Double.valueOf(intervalStr) * 60 * 1000);
             myAlarm.setAlarm(interval);
             Log.d("mytime", "Start alarm. Interval " + interval/1000 + " sec");

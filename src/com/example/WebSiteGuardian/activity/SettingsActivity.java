@@ -1,4 +1,4 @@
-package com.example.WebSit_eGuardian.activity;
+package com.example.WebSiteGuardian.activity;
 
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
@@ -6,8 +6,8 @@ import android.os.Bundle;
 import android.preference.EditTextPreference;
 import android.preference.PreferenceActivity;
 import android.util.Log;
-import com.example.WebSit_eGuardian.service.MyAlarm;
-import com.example.WebSit_eGuardian.R;
+import com.example.WebSiteGuardian.service.MyAlarm;
+import com.example.WebSiteGuardian.R;
 
 public class SettingsActivity extends PreferenceActivity implements OnSharedPreferenceChangeListener {
 

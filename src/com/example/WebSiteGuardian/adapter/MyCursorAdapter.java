@@ -1,4 +1,4 @@
-package com.example.WebSit_eGuardian.adapter;
+package com.example.WebSiteGuardian.adapter;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -7,8 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CursorAdapter;
 import android.widget.TextView;
-import com.example.WebSit_eGuardian.R;
-import com.example.WebSit_eGuardian.db.ResultsTable;
+import com.example.WebSiteGuardian.R;
+import com.example.WebSiteGuardian.db.ResultsTable;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package com.example.WebSit_eGuardian.db;
+package com.example.WebSiteGuardian.db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -6,7 +6,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class DBHelper extends SQLiteOpenHelper {
 
-    public static String DB_UPDATE = "com.example.WebSit_eGuardian.db.DB_UPDATE";
+    public static String DB_UPDATE = "com.example.WebSiteGuardian.db.DB_UPDATE";
 
     //DB main
     public static final String DB_NAME = "history.db";

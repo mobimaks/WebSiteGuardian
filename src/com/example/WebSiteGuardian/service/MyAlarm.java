@@ -1,4 +1,4 @@
-package com.example.WebSit_eGuardian.service;
+package com.example.WebSiteGuardian.service;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;

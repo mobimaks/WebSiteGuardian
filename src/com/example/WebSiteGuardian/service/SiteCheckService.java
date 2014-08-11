@@ -1,4 +1,4 @@
-package com.example.WebSit_eGuardian.service;
+package com.example.WebSiteGuardian.service;
 
 import android.app.Service;
 import android.content.Intent;
@@ -7,13 +7,13 @@ import android.os.AsyncTask;
 import android.os.IBinder;
 import android.preference.PreferenceManager;
 import android.util.Log;
-import com.example.WebSit_eGuardian.R;
-import com.example.WebSit_eGuardian.activity.MainActivity;
-import com.example.WebSit_eGuardian.activity.SettingsActivity;
-import com.example.WebSit_eGuardian.db.DBHelper;
-import com.example.WebSit_eGuardian.db.ResultsDataSource;
-import com.example.WebSit_eGuardian.net.HandleHTTP;
-import com.example.WebSit_eGuardian.notification.SiteCheckNotification;
+import com.example.WebSiteGuardian.R;
+import com.example.WebSiteGuardian.activity.MainActivity;
+import com.example.WebSiteGuardian.activity.SettingsActivity;
+import com.example.WebSiteGuardian.db.DBHelper;
+import com.example.WebSiteGuardian.db.ResultsDataSource;
+import com.example.WebSiteGuardian.net.HandleHTTP;
+import com.example.WebSiteGuardian.notification.SiteCheckNotification;
 
 
 public class SiteCheckService extends Service {

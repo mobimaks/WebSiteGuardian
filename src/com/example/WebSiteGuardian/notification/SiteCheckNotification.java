@@ -1,11 +1,11 @@
-package com.example.WebSit_eGuardian.notification;
+package com.example.WebSiteGuardian.notification;
 
 import android.app.*;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Vibrator;
-import com.example.WebSit_eGuardian.activity.MainActivity;
-import com.example.WebSit_eGuardian.R;
+import com.example.WebSiteGuardian.activity.MainActivity;
+import com.example.WebSiteGuardian.R;
 
 public class SiteCheckNotification {
 

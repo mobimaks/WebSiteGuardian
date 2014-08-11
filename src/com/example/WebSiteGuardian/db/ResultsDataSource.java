@@ -1,10 +1,10 @@
-package com.example.WebSit_eGuardian.db;
+package com.example.WebSiteGuardian.db;
 
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
-import com.example.WebSit_eGuardian.service.SiteCheckService.SiteCheckResult;
+import com.example.WebSiteGuardian.service.SiteCheckService.SiteCheckResult;
 
 public class ResultsDataSource {
 

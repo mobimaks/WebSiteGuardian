@@ -1,11 +1,11 @@
-package com.example.WebSit_eGuardian.loader;
+package com.example.WebSiteGuardian.loader;
 
 import android.content.AsyncTaskLoader;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import com.example.WebSit_eGuardian.db.DBHelper;
-import com.example.WebSit_eGuardian.db.ResultsDataSource;
+import com.example.WebSiteGuardian.db.DBHelper;
+import com.example.WebSiteGuardian.db.ResultsDataSource;
 
 public class MyCursorLoader extends AsyncTaskLoader<Cursor> {
 
