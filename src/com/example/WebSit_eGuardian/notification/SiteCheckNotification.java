@@ -27,7 +27,7 @@ public class SiteCheckNotification {
                 .setContentTitle(String.format(getString(R.string.siteTitleError), errorNum))
                 .setContentText(String.format(getString(R.string.siteError), siteUrl))
                 .setContentIntent(pendingIntent)
-                .setLights(getColor(android.R.color.holo_red_light), 800, 1500)
+                .setLights(getColor(android.R.color.holo_red_dark), 800, 1500)
                 .setAutoCancel(true).build();
         vibrate();
         manager.notify(NOTIFICATION_ID, notification);
